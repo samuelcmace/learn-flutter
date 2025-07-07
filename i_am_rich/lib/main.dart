@@ -11,13 +11,7 @@ void main() {
         ),
         body: Padding(
           padding: const EdgeInsets.all(64.0),
-          child: Center(
-            child: Image(
-              image: NetworkImage(
-                'https://cdn.mos.cms.futurecdn.net/57jQMDN5MZLYfV8ps8HuZQ.jpg',
-              ),
-            ),
-          ),
+          child: Center(child: Image(image: AssetImage('images/diamond.png'))),
         ),
       ),
     ),
